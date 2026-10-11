@@ -1,0 +1,68 @@
+# Config Sveltia CMS pour LISAHDLE.
+# Sveltia lit/écrit data/people.json, que le jeu charge ensuite pour les suggestions et le tirage du jour.
+
+backend:
+  name: github
+  repo: TON-USER/TON-REPO   # <-- à remplacer (ex. maximegerardin/mon-site)
+  branch: main
+
+# Dossier des médias (non utilisé pour l'instant, requis par le CMS)
+media_folder: data/uploads
+public_folder: /data/uploads
+
+# Si le jeu est dans un sous-dossier du dépôt (ex. lisahdle/), écris ici
+# le chemin complet dans "file", ex. : lisahdle/data/people.json
+
+collections:
+  - name: donnees
+    label: Données du jeu
+    files:
+      - name: people
+        label: Personnes
+        file: data/people.json
+        format: json
+        fields:
+          - label: Personnes
+            name: people
+            widget: list
+            label_singular: personne
+            summary: "{{fields.nom}} ({{fields.equipe}})"
+            fields:
+              - { label: Nom complet, name: nom, widget: string, hint: "Ce nom est celui proposé dans les suggestions. Il doit être unique." }
+              - { label: Équipe, name: equipe, widget: string }
+              - label: Tutelles
+                name: tutelles
+                widget: list
+                label_singular: tutelle
+                min: 1
+                hint: "Une ou plusieurs tutelles, à choisir dans la liste"
+                field:
+                  label: Tutelle
+                  name: tutelle
+                  widget: select
+                  options: [INRAE, IRD, AgroParisTech, CIRAD, UM, Supagro]
+              - label: Sexe
+                name: sexe
+                widget: select
+                options:
+                  - { label: Homme, value: H }
+                  - { label: Femme, value: F }
+              - label: Statut
+                name: statut
+                widget: select
+                options: [Permanent, CDD, Doctorant, Post-doc, Stagiaire]
+              - label: Rôle
+                name: role
+                widget: select
+                options: [Chercheur, "Ingénieur de recherche", "Ingénieur d'études", "Assistant ingénieur", Technicien, Administratif, Enseignant-chercheur]
+              - label: Localisation
+                name: localisation
+                widget: list
+                label_singular: lieu
+                min: 1
+                hint: "Un ou plusieurs lieux, à choisir dans la liste"
+                field:
+                  label: Lieu
+                  name: lieu
+                  widget: select
+                  options: [Montpellier, Tunisie, Antilles, Inde]

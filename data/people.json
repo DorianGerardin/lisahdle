@@ -1,0 +1,683 @@
+{
+  "people": [
+    {
+      "nom": "Cécile Gomez",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Arnaud Dubreuil",
+      "equipe": "Pôle système d'information",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Denis Feurer",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur de recherche",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Davide Rizzo",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Radhouane Hamdi",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Tunisie"
+      ]
+    },
+    {
+      "nom": "Viqui Agazzi",
+      "equipe": "Pôle système d'information",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Cécile Dagès",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Jean-Stéphane Bailly",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "AgroParisTech"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Damien Raclot",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Céline MARTIN",
+      "equipe": "Pôle gestion administrative",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Administratif",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Fabrice Vinatier",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "William Reverte",
+      "equipe": "Pôle système d'information",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Technicien",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Nadia Ez Zoubi",
+      "equipe": "Pôle gestion administrative",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Administratif",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Azziza NAJIM",
+      "equipe": "Pôle gestion administrative",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Administratif",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Nicolas Moyroud",
+      "equipe": "Pôle système d'information",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Intissar Ferchichi",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Post-doc",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Jérôme Molenat",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Gabrielle Rudi",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "AgroParisTech"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Jean-Luc BELOTTI",
+      "equipe": "Pôle observation & expérimentation",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Technicien",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Asma Hmaied",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier",
+        "Tunisie"
+      ]
+    },
+    {
+      "nom": "Claude Hammecker",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Tunisie"
+      ]
+    },
+    {
+      "nom": "Emmanuel Ah-woane",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "AgroParisTech"
+      ],
+      "sexe": "H",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Pierre Manchon",
+      "equipe": "OpenFLUID & ingénierie de la modélisation des paysages",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Judith Le Pelvé",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Tunisie",
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "David Crevoisier",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur de recherche",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Giulio Martelluci",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Lynda Pavy",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Imen Brini",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier",
+        "Tunisie"
+      ]
+    },
+    {
+      "nom": "Sandrine Negro",
+      "equipe": "Pôle observation & expérimentation",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Assistant ingénieur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Armel Thöni",
+      "equipe": "OpenFLUID & ingénierie de la modélisation des paysages",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Roger Moussa",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Olivier Huttel",
+      "equipe": "Pôle observation & expérimentation",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Dorian Gerardin",
+      "equipe": "OpenFLUID & ingénierie de la modélisation des paysages",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "CDD",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Nicolas Devaux",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "Supagro"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Enseignant-chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Sixtine Cueff",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "David Fages",
+      "equipe": "Pôle observation & expérimentation",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Technicien",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Linda Jridi",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Henri Lechevallier",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Juliette Gaab",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "Supagro"
+      ],
+      "sexe": "F",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Anatja Samouelian",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Guillaume Coulouma",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Sébastien Troiano",
+      "equipe": "Pôle observation & expérimentation",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Technicien",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Frédéric Jacob",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "IRD"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Julien Fouché",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "Supagro"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Jeanne Dollinger",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "Permanent",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Mehdi Khalfallah",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Doctorant",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Manon Bouvard",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "F",
+      "statut": "CDD",
+      "role": "Ingénieur de recherche",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Guillaume Métayer",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "AgroParisTech"
+      ],
+      "sexe": "H",
+      "statut": "Permanent",
+      "role": "Enseignant-chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Sebastian Roman-Villafane",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "CDD",
+      "role": "Ingénieur de recherche",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Alexandre Eymard",
+      "equipe": "Ressources en sols sous changements globaux",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "CDD",
+      "role": "Ingénieur d'études",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Jonas Paccolat",
+      "equipe": "Ecohydrologie des agrosystème",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "Post-doc",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Juan-David Dominguez",
+      "equipe": "Contaminants des sols & des eaux",
+      "tutelles": [
+        "Supagro"
+      ],
+      "sexe": "F",
+      "statut": "Post-doc",
+      "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    }
+  ]
+}

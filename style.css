@@ -1,0 +1,121 @@
+:root{
+  --bg:#eff3e5;
+  --panel:#f9fbf4;
+  --fg:#222a1a;
+  --mute:#66725a;
+  --line:#d2dbbd;
+  --accent:#9cb164;
+  --accent-fg:#1f2914;
+  --ok:#2f8450;
+  --ko:#c0483a;
+  --on:#fff;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:540px;margin:0 auto;padding:18px 14px 40px}
+
+h1{
+  display:block;width:fit-content;margin:0 auto 4px;
+  font-size:2.1rem;font-weight:800;letter-spacing:.07em;line-height:1.15;
+  background:linear-gradient(90deg,#8d5544,#597b49,#008f43,#008765,#18659b);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;color:transparent;
+}
+
+.sub{color:var(--mute);margin:0 0 18px;font-size:.92rem;text-align:center}
+
+.search{position:relative;margin-bottom:16px}
+input{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--accent);border-radius:8px;background:var(--panel);color:var(--fg)}
+input:focus{outline:none;box-shadow:0 0 0 3px rgba(156,177,100,.35)}
+ul.sugg{list-style:none;margin:4px 0 0;padding:0;position:absolute;left:0;right:0;z-index:5;background:var(--panel);border:2px solid var(--accent);border-radius:8px;overflow:hidden}
+ul.sugg:empty{display:none}
+ul.sugg li{padding:12px 14px;border-top:1px solid var(--line);cursor:pointer}
+ul.sugg li:first-child{border-top:0}
+ul.sugg li:active,ul.sugg li:hover{background:var(--bg)}
+
+.guess{min-width:590px;background:var(--panel);border:1px solid var(--accent);border-radius:10px;padding:10px;margin-bottom:10px}
+.guess h2{font-size:1rem;margin:0 0 8px;font-weight:600;width:max-content;position:sticky;left:10px}
+/* Un seul défilement horizontal pour tous les essais : #list défile, les cartes ont une largeur minimale */
+#list{overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--accent) transparent}
+#list::-webkit-scrollbar{height:5px}
+#list::-webkit-scrollbar-thumb{background:var(--accent);border-radius:3px}
+.cells{display:flex;justify-content:flex-start;gap:5px}
+.cell{flex:1 1 76px;min-width:76px;max-width:96px;height:auto;min-height:0;overflow:hidden;aspect-ratio:1;align-self:flex-start;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:6px;color:var(--on);padding:4px;text-align:center}
+.cell.ok{background:var(--ok)}
+.cell.ko{background:var(--ko)}
+.cell.hid{background:var(--mute)}
+.cell small{display:block;font-size:.66rem;opacity:.85;margin-bottom:2px}
+.cell b{display:block;font-size:.76rem;font-weight:600;overflow-wrap:anywhere;hyphens:auto;white-space:pre-line}
+
+/* Texte tronqué : "…" à la taille minimale, toucher pour tout voir */
+.cell b.clamp{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis}
+.cell.clipped{cursor:pointer}
+.tip{position:fixed;z-index:50;max-width:min(260px,calc(100vw - 16px));padding:8px 10px;border-radius:8px;background:var(--fg);color:var(--bg);font-size:.85rem;line-height:1.3;white-space:pre-line;overflow-wrap:anywhere;box-shadow:0 4px 14px rgba(0,0,0,.25);pointer-events:none}
+
+/* Animation : les cases apparaissent l'une après l'autre sur le dernier essai */
+.guess.new .cell{animation:pop .45s cubic-bezier(.2,.8,.3,1) both;animation-delay:calc(var(--i) * 140ms)}
+@keyframes pop{
+  from{opacity:0;transform:translateY(8px) scale(.85)}
+  to{opacity:1;transform:none}
+}
+
+.win{background:var(--panel);border:2px solid var(--accent);border-radius:10px;padding:14px;margin-bottom:14px}
+.win.new{animation:fade .5s ease both}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.win p{margin:0 0 10px}
+pre{margin:0 0 10px;padding:10px;background:var(--bg);border-radius:6px;font:inherit;white-space:pre-wrap}
+
+button{font:inherit;font-weight:600;padding:12px 16px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-fg);width:100%;cursor:pointer}
+button:active{filter:brightness(.95)}
+
+.empty{color:var(--mute);text-align:center;padding:18px 0;position:sticky;left:0}
+.foot{color:var(--mute);font-size:.8rem;text-align:center;margin-top:20px}
+
+@media (prefers-reduced-motion:reduce){
+  .guess.new .cell,.win.new{animation:none}
+}
+
+/* Bouton de mode d'affichage : uniquement sur téléphone, sous les essais, dès le premier essai */
+.view-bar{display:none}
+.icon-btn{width:auto;flex:none;padding:8px;line-height:0;background:transparent;border:2px solid var(--accent);color:var(--fg);border-radius:8px}
+.icon-btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.icon-btn .i-scroll{display:none}
+body.fit .icon-btn .i-fit{display:none}
+body.fit .icon-btn .i-scroll{display:block}
+
+@media (max-width:531px){
+  .view-bar.on{display:flex;justify-content:center;margin-top:12px}
+
+  /* Mode "tout sur la largeur" : plus de défilement, les cases se resserrent */
+  body.fit #list{overflow-x:visible}
+  body.fit .guess{min-width:0;padding:4px 8px 8px;}
+  body.fit .guess h2{position:static;width:auto}
+  body.fit .cells{gap:2px;justify-content:space-between}
+  body.fit .cell{flex:1 1 0;min-width:0;max-width:80px;height:auto;aspect-ratio:1;align-self:flex-start;padding:2px}
+  body.fit .cell small{font-size:clamp(.56rem,2.6vw,.76rem);margin-bottom:1px}
+  body.fit .cell b{font-size:clamp(.68rem,3.2vw,.95rem);line-height:1.15}
+}
+
+/* Ordinateur : tout est agrandi (cases 96 px, peu d'espace entre elles) */
+@media (min-width:800px){
+  main{max-width:760px;padding-top:28px}
+  h1{font-size:2.8rem}
+  .sub{font-size:1.05rem;margin-bottom:24px}
+  input{font-size:1.15rem;padding:16px 18px}
+  ul.sugg li{padding:15px 18px;font-size:1.1rem}
+  .guess{min-width:0;padding:14px}
+  .guess h2{font-size:1.15rem;margin-bottom:10px}
+  .cells{gap:4px;justify-content:flex-start}
+  .cell{flex:0 0 96px;height:96px;border-radius:7px;padding:6px}
+  .cell small{font-size:.74rem;margin-bottom:3px}
+  .cell b{font-size:.95rem}
+  .win{padding:20px;font-size:1.1rem}
+  button{font-size:1.1rem;padding:15px 20px}
+  .foot{font-size:.95rem}
+}

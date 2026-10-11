@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#eff3e5">
+<title>LISAHDLE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>LISAHDLE</h1>
+  <p class="sub">Une personne du LISAH à trouver par jour.</p>
+
+  <div class="search" id="searchBox">
+    <input id="q" type="text" placeholder="Nom de la personne" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go">
+    <ul class="sugg" id="sugg"></ul>
+  </div>
+
+  <div id="win"></div>
+  <div id="list"></div>
+  <div class="view-bar" id="viewBar">
+    <button type="button" id="view" class="icon-btn" aria-label="Tout afficher sur la largeur" title="Tout afficher sur la largeur">
+      <!-- 4 flèches vers l'intérieur : tout faire rentrer sur la largeur -->
+      <svg class="i-fit" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l6 6M9 4v5H4M21 3l-6 6M15 4v5h5M21 21l-6-6M20 15h-5v5M3 21l6-6M4 15h5v5"/></svg>
+      <!-- 4 flèches vers l'extérieur : revenir au défilement horizontal -->
+      <svg class="i-scroll" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8L3 3M3 8V3h5M16 8l5-5M16 3h5v5M16 16l5 5M21 16v5h-5M8 16l-5 5M3 16v5h5"/></svg>
+    </button>
+  </div>
+  <p class="foot" id="foot"></p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
