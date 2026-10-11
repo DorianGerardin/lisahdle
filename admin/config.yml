@@ -1,17 +1,10 @@
-# Config Sveltia CMS pour LISAHDLE.
-# Sveltia lit/écrit data/people.json, que le jeu charge ensuite pour les suggestions et le tirage du jour.
-
 backend:
   name: github
-  repo: TON-USER/TON-REPO   # <-- à remplacer (ex. maximegerardin/mon-site)
+  repo: DorianGerardin/lisahdle
   branch: main
 
-# Dossier des médias (non utilisé pour l'instant, requis par le CMS)
 media_folder: data/uploads
 public_folder: /data/uploads
-
-# Si le jeu est dans un sous-dossier du dépôt (ex. lisahdle/), écris ici
-# le chemin complet dans "file", ex. : lisahdle/data/people.json
 
 collections:
   - name: donnees
