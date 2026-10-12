@@ -531,7 +531,7 @@
       ],
       "sexe": "H",
       "statut": "Permanent",
-      "role": "Chercheur",
+      "role": "Ingénieur d'études",
       "localisation": [
         "Montpellier"
       ]
@@ -675,6 +675,19 @@
       "sexe": "F",
       "statut": "Post-doc",
       "role": "Chercheur",
+      "localisation": [
+        "Montpellier"
+      ]
+    },
+    {
+      "nom": "Étienne Mathgen",
+      "equipe": "Ecohydrologie des agrosystèmes",
+      "tutelles": [
+        "INRAE"
+      ],
+      "sexe": "H",
+      "statut": "CDD",
+      "role": "Ingénieur d'études",
       "localisation": [
         "Montpellier"
       ]
